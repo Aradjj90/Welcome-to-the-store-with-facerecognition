@@ -69,7 +69,7 @@ while(True):
             if "Unknown" in person:
                 speak("welcome unknown person")
             else:
-                speak("hello, %s" % person)
+                speak("hello, %s today is especially for you... " % person)
             face_names.append(person)
 
     process_this_frame = not process_this_frame
